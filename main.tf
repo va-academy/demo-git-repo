@@ -80,3 +80,53 @@ resource "aws_instance" "example" {
     Name = "ExampleInstance"
   }
 }
+
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+
+
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
